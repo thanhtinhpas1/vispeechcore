@@ -43,5 +43,4 @@ def post1():
     return jsonify(responseData)
 
 if __name__ == '__main__':
-    print('ASR API is running on port 5000')
-    app.run(host='0.0.0.0', port=5000)
+    app.run()
